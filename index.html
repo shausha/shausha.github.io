@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Usha Jawahar Lal</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      background: linear-gradient(120deg, #89f7fe, #66a6ff);
+      color: #fff;
+      overflow: hidden;
+    }
+    .container {
+      text-align: center;
+      margin: 10vh auto;
+      animation: fadeIn 2s ease-in;
+    }
+    h1 {
+      font-size: 4rem;
+      margin-bottom: 0.5rem;
+      animation: slideDown 1.5s ease-in-out;
+    }
+    h2 {
+      font-size: 1.8rem;
+      animation: fadeIn 2s ease-in-out;
+    }
+    .skills, .projects, .certifications {
+      margin: 20px auto;
+      max-width: 800px;
+      animation: slideUp 2s ease-in-out;
+    }
+    .skills div, .projects div, .certifications div {
+      margin: 10px 0;
+      padding: 10px;
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 10px;
+      transition: transform 0.3s ease, background 0.3s ease;
+    }
+    .skills div:hover, .projects div:hover, .certifications div:hover {
+      transform: translateY(-5px);
+      background: rgba(255, 255, 255, 0.2);
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+    @keyframes slideDown {
+      from { transform: translateY(-50px); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
+    }
+    @keyframes slideUp {
+      from { transform: translateY(50px); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
+    }
+    a {
+      color: #ffd700;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+    a:hover {
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Hi, I'm Usha Jawahar Lal 👋</h1>
+    <h2>Aspiring Data Scientist | AI Enthusiast | Problem Solver</h2>
+  </div>
+
+  <div class="skills">
+    <h2>🚀 Skills</h2>
+    <div>Languages: Python, SQL, R</div>
+    <div>Frameworks: TensorFlow, Keras, Scikit-learn</div>
+    <div>Tools: PowerBI, Tableau, Excel</div>
+  </div>
+
+  <div class="projects">
+    <h2>🎯 Projects</h2>
+    <div>Enhancing Disease Classification with Optimized Language Models</div>
+    <div>Stock Price Forecasting with LSTM & GRU</div>
+    <div>Gene Expression Analysis for Cancer Treatment</div>
+  </div>
+
+  <div class="certifications">
+    <h2>🏆 Certifications</h2>
+    <div>OCI GenAI Professional - Oracle</div>
+    <div>Introduction to LLM - Google</div>
+    <div>Clinical Data Analytics Workshop - Clinosol</div>
+  </div>
+
+  <div class="container">
+    <h2>📫 Contact Me</h2>
+    <p>Email: <a href="mailto:ushajawahar23@gmail.com">ushajawahar23@gmail.com</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/usha2023/">linkedin.com/in/usha2023</a></p>
+  </div>
+</body>
+</html>
